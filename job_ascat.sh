@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=sarek_ascat
 #SBATCH --partition=g128
-#SBATCH --cpus-per-task=2
-#SBATCH --mem=4G
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
 #SBATCH --output=sarek_%j.log
 
 set -euo pipefail
