@@ -39,7 +39,7 @@ nextflow run nf-core/sarek \
     --tools ascat \
     --genome GATK.GRCh38 \
     --wes \
-    --intervals "$ASCAT_DIR/S04380110_AllTracks.bed" \
+    --intervals "$ASCAT_DIR/S04380110_Covered_clean.bed" \
     --ascat_alleles "$ASCAT_DIR/G1000_alleles_WES_hg38.zip" \
     --ascat_loci "$ASCAT_DIR/G1000_loci_WES_hg38.zip" \
     --ascat_loci_gc "$ASCAT_DIR/GC_G1000_WES_hg38.zip" \
